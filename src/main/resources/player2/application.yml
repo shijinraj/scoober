@@ -1,0 +1,11 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: player2
+nextPlayerName:
+  name: player1
+  url:  localhost:8080/api/game/
+feign:
+  hystrix:
+    enabled: true
